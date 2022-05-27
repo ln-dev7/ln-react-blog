@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid lightslategray;
+    padding: 0 20px;
+}
+
+.navbar a img {
+    width: 75px;
+}
+
+.navbar .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .items .item {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.navbar .items .item a {
+    font-size: 18px
+}
+.navbar .items .item-article{
+    background: #5dc4ff;
+    border-radius: 10px;
+}
+.navbar .items .item-article a{
+    color: #fff;
+}
