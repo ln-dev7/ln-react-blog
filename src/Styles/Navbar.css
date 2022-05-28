@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid lightslategray;
+    border-bottom: 1px solid #e4e4e4;
     padding: 0 20px;
+    background: white;
 }
 
 .navbar a img {
