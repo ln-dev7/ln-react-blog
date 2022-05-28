@@ -12,7 +12,7 @@ const BlogList = ({blogs, title, deleteBlog}) => {
                                 <p className="blog-description">{blog.body}</p>
                                 <small className="blog-date">{blog.date}</small>
                                 <p className="blog-author">Publie par {blog.author}</p>
-                                <button className="blog-delete" onClick={() => deleteBlog(blog.id)}>supprimer</button>
+                                <button className="blog-delete">supprimer</button>
                             </div>
                         )
                     })
