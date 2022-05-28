@@ -71,3 +71,37 @@ img{
 .blog-detail-delete:hover ~ .content{
     filter: grayscale(.9);
 }
+
+.overlay{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.overlay-container{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.overlay-container div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.overlay-container div button{
+    margin-left: 10px;
+}
+
+.red{
+    background: red;
+}
+
+.gray{
+    background: gray;
+}

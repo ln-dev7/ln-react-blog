@@ -2,6 +2,7 @@ import {useParams} from "react-router-dom";
 import getData from "../Data/getData";
 import {useHistory} from "react-router-dom";
 import './../Styles/BlogDetail.css'
+import {useState} from "react";
 
 const BlogDetail = () => {
     const {id} = useParams();
@@ -19,6 +20,16 @@ const BlogDetail = () => {
             })
     }
 
+    const [isModal, setIsModal] = useState(false);
+
+    const openModal = () => {
+        setIsModal(true);
+    }
+
+    const closeModal = () => {
+        setIsModal(false);
+    }
+
     return (
         <div className="detail-blog">
             {
@@ -28,9 +39,20 @@ const BlogDetail = () => {
                 loading && <div className="loading"></div>
             }
             {
+                isModal && <div className="overlay">
+                    <div className="overlay-container">
+                        <h2>Etes-vous sûr de vouloir supprimer ce blog ?</h2>
+                        <div>
+                            <button className="red" onClick={deleteBlog}>Supprimer</button>
+                            <button className="gray" onClick={closeModal}>Annuler</button>
+                        </div>
+                    </div>
+                </div>
+            }
+            {
                 blog && (
                     <div className="blog-detail">
-                        <button onClick={deleteBlog} className="blog-detail-delete">
+                        <button onClick={openModal} className="blog-detail-delete">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                 <path fill="none" d="M0 0h24v24H0z"/>
                                 <path

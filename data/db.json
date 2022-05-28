@@ -7,14 +7,6 @@
       "author": "Nitron",
       "date": "20/11/2020",
       "image": "https://picsum.photos/500/300"
-    },
-    {
-      "id": 3,
-      "title": "HTML Snippets",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum, esse facilis iure laudantium maxime, odio quibusdam quidem ratione rem sequi velit. Adipisci dignissimos dolorem eligendi esse, laudantium odit veniam.",
-      "author": "Expo",
-      "date": "13/09/2022",
-      "image": "https://picsum.photos/500/300"
     }
   ]
 }
