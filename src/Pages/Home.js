@@ -1,5 +1,5 @@
-import './../Styles/Home.css'
-import BlogList from "./BlogList";
+import '../Styles/Home.css'
+import BlogList from "../Components/BlogList";
 import getData from "../Data/getData.js";
 
 const Home = () => {

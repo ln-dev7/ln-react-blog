@@ -1,4 +1,7 @@
-const BlogList = ({blogs, title, deleteBlog}) => {
+import {Link} from "react-router-dom";
+import './../Styles/BlogList.css'
+
+const BlogList = ({blogs, title}) => {
 
     return (
         <div className="container">
@@ -8,7 +11,7 @@ const BlogList = ({blogs, title, deleteBlog}) => {
                     blogs.map((blog) => {
                         return (
                             <div className="blog" key={blog.id}>
-                                <a href="" className="blog-title">{blog.title}</a>
+                                <Link to={`blog/${blog.id}`} className="blog-title">{blog.title}</Link>
                                 <p className="blog-description">{blog.body}</p>
                                 <small className="blog-date">{blog.date}</small>
                                 <p className="blog-author">Publie par {blog.author}</p>

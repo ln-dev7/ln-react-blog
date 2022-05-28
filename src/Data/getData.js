@@ -6,7 +6,8 @@ const GetData = (url) => {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch(url)
+        const abortController = new AbortController()
+        fetch(url, {signal: abortController.signal})
             .then((response) => {
                 if (response.ok) {
                     setError(false)
@@ -25,10 +26,18 @@ const GetData = (url) => {
                 setData(data)
             })
             .catch(err => {
+                if (error.name === 'AbortError') {
+                    console.log('La requête a été annulée')
+                } else {
+                    console.log(err)
+                }
                 setLoading(false)
                 setError(true)
                 console.log(err.message)
             })
+        return () => {
+            abortController.abort()
+        }
     }, [url])
 
     return {data, error, loading}

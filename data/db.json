@@ -5,28 +5,32 @@
       "title": "CSS Snippets",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum, esse facilis iure laudantium maxime, odio quibusdam quidem ratione rem sequi velit. Adipisci dignissimos dolorem eligendi esse, laudantium odit veniam.",
       "author": "Nitron",
-      "date": "20/11/2020"
+      "date": "20/11/2020",
+      "image": "https://picsum.photos/500/300"
     },
     {
       "id": 2,
       "title": "JS Snippets",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum, esse facilis iure laudantium maxime, odio quibusdam quidem ratione rem sequi velit. Adipisci dignissimos dolorem eligendi esse, laudantium odit veniam.",
       "author": "LN",
-      "date": "21/03/2019"
+      "date": "21/03/2019",
+      "image": "https://picsum.photos/500/300"
     },
     {
       "id": 3,
       "title": "HTML Snippets",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum, esse facilis iure laudantium maxime, odio quibusdam quidem ratione rem sequi velit. Adipisci dignissimos dolorem eligendi esse, laudantium odit veniam.",
       "author": "Expo",
-      "date": "13/09/2022"
+      "date": "13/09/2022",
+      "image": "https://picsum.photos/500/300"
     },
     {
       "id": 4,
       "title": "REACT Snippets",
       "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum, esse facilis iure laudantium maxime, odio quibusdam quidem ratione rem sequi velit. Adipisci dignissimos dolorem eligendi esse, laudantium odit veniam.",
       "author": "LN",
-      "date": "22/05/2017"
+      "date": "22/05/2017",
+      "image": "https://picsum.photos/500/300"
     }
   ]
 }

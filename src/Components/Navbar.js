@@ -1,17 +1,18 @@
 import './../Styles/Navbar.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <a href="/">
-                <img src="logo.png" alt="logo"/>
-            </a>
+            <Link to="/">
+                <img src="/logo.png" alt="logo"/>
+            </Link>
             <ul className="items">
                 <li className="item">
-                    <a href="ln-blog/src/Components/Navbar">Accueil</a>
+                    <Link to="/">Accueil</Link>
                 </li>
-                <li className="item item-article">
-                    <a href="ln-blog/src/Components/Navbar">Creer un article</a>
+                <li className="item">
+                    <Link className="item-article" to="/add-article">Creer un article</Link>
                 </li>
             </ul>
         </nav>

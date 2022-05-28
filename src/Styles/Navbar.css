@@ -27,8 +27,24 @@
 }
 .navbar .items .item-article{
     background: #5dc4ff;
+    padding: 10px;
+    color: white;
     border-radius: 10px;
 }
 .navbar .items .item-article a{
     color: #fff;
+}
+
+@media screen and (max-width: 510px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar .items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
 }

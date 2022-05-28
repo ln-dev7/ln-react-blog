@@ -1,0 +1,45 @@
+.detail-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+.blog-detail{
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 500px;
+    max-width: 90%;
+}
+
+img{
+    object-fit: cover;
+}
+
+.content{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-detail-title{
+    color: #5dc4ff;
+    margin: 0;
+    align-self: flex-start;
+}
+
+.blog-detail-description{
+    text-align: left;
+}
+
+.blog-detail-date{
+    align-self: flex-end;
+}
+
+.blog-detail-author{
+    align-self: flex-start;
+}
