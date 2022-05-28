@@ -41,14 +41,3 @@ h2{
     color: gray;
 }
 
-.blog-delete{
-    background: red;
-    border-radius: 5px;
-    padding: 8px;
-    font-weight: bold;
-    color: white;
-    border: none;
-    cursor: pointer;
-    float: right;
-    font-size: 13px;
-}
