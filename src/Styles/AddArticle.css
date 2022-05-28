@@ -1,0 +1,59 @@
+.add-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+    padding-right: 35px;
+    width: 600px;
+    max-width: 90%;
+    margin-top: 20px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.article-input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+label{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 0 10px 10px;
+    color: gray;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    background: #5dc4ff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
