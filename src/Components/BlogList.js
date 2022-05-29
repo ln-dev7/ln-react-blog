@@ -10,12 +10,14 @@ const BlogList = ({blogs, title}) => {
                 {
                     blogs.map((blog) => {
                         return (
-                            <div className="blog" key={blog.id}>
-                                <Link to={`blog/${blog.id}`} className="blog-title">{blog.title}</Link>
-                                <p className="blog-description">{blog.body}</p>
-                                <small className="blog-date">{blog.date}</small>
-                                <p className="blog-author">Publie par {blog.author}</p>
-                            </div>
+                            <Link to={`blog/${blog.id}`}>
+                                <div className="blog" key={blog.id}>
+                                    <h3 className="blog-title">{blog.title}</h3>
+                                    <p className="blog-description">{blog.body.length > 200 ? blog.body.substring(0, 150) + " ..." : blog.body}</p>
+                                    <small className="blog-date">{blog.date}</small>
+                                    <p className="blog-author">Publie par {blog.author}</p>
+                                </div>
+                            </Link>
                         )
                     })
                 }
