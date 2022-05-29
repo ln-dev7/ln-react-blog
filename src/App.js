@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import AddArticle from "./Pages/AddArticle";
 import BlogDetail from "./Components/BlogDetail";
+import NotFound from "./Pages/NotFound";
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
                 </Route>
                 <Route path='/blog/:id'>
                     <BlogDetail/>
+                </Route>
+
+                <Route path='*'>
+                    <NotFound/>
                 </Route>
             </Switch>
         </Router>
