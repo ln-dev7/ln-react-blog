@@ -5,12 +5,11 @@ const BlogList = ({blogs, title}) => {
 
     return (
         <div className="container">
-            <h2>{title}</h2>
             <div className="bloglist">
                 {
                     blogs.map((blog) => {
                         return (
-                            <Link to={`blog/${blog.id}`}>
+                            <Link className="blog-link" to={`blog/${blog.id}`}>
                                 <div className="blog" key={blog.id}>
                                     <h3 className="blog-title">{blog.title}</h3>
                                     <p className="blog-description">{blog.body.length > 200 ? blog.body.substring(0, 150) + " ..." : blog.body}</p>

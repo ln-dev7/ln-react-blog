@@ -7,12 +7,12 @@ import {useState} from "react";
 const BlogDetail = () => {
     const {id} = useParams();
 
-    const {data: blog, loading, error} = getData('https://my-json-server.typicode.com/ln-dev7/ln-react-blog-server/blogs/' + id);
+    const {data: blog, loading, error} = getData('http://localhost:8000/blogs/' + id);
 
     const history = useHistory();
 
     const deleteBlog = () => {
-        fetch('https://my-json-server.typicode.com/ln-dev7/ln-react-blog-server/blogs/' + id, {
+        fetch('http://localhost:8000/blogs/' + id, {
             method: 'DELETE'
         })
             .then(() => {

@@ -18,7 +18,7 @@ const AddArticle = () => {
             title, author, body, image, date
         };
         setLoading(true)
-        fetch('https://my-json-server.typicode.com/ln-dev7/ln-react-blog-server/blogs', {
+        fetch('http://localhost:8000/blogs', {
             method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(blog)
         })
             .then(() => {

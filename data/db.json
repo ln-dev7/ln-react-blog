@@ -1,0 +1,52 @@
+{
+  "blogs": [
+    {
+      "title": "La programmation",
+      "author": "LN",
+      "body": "La programmation, appelée aussi codage dans le domaine informatique1, désigne l'ensemble des activités qui permettent l'écriture des programmes informatiques. C'est une étape importante du développement de logiciels (voire de matériel).\n\nL'écriture d'un programme se fait dans un langage de programmation. Un logiciel est un ensemble de programmes (qui peuvent être écrits dans des langages de programmation différents) dédié à la réalisation de certaines tâches par un (ou plusieurs) utilisateurs du logiciel.\n\nLa programmation représente donc ici la rédaction du code source d'un logiciel. On utilise plutôt le terme développement pour dénoter l'ensemble des activités liées à la création d'un logiciel et des programmes qui le composent. Cela inclut la spécification du logiciel, sa conception, puis son implémentation proprement dite au sens de l'écriture des programmes dans un langage de programmation bien défini, ainsi que la vérification de sa correction, etc.",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 00:04:51.089Z",
+      "id": 1
+    },
+    {
+      "title": "Le framework Vue",
+      "author": "LN",
+      "body": "Vue.js (aussi appelé plus simplement Vue), est un framework JavaScript open-source utilisé pour construire des interfaces utilisateur et des applications web monopages. Vue a été créé par Evan You et est maintenu par lui et le reste des membres actifs de l'équipe principale travaillant sur le projet et son écosystème.",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 00:10:27.641Z",
+      "id": 2
+    },
+    {
+      "title": "SvelteJS",
+      "author": "LN",
+      "body": "Svelte est une nouvelle approche radicale de la création d'interfaces utilisateur. Alors que les frameworks traditionnels comme React et Vue effectuent l'essentiel de leur travail dans le navigateur, Svelte transforme ce travail en une étape de compilation qui se produit lorsque vous créez votre application. Au lieu d'utiliser des techniques telles que la différenciation virtuelle du DOM, Svelte écrit du code qui met à jour chirurgicalement le DOM lorsque l'état de votre application change.",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 00:23:57.053Z",
+      "id": 3
+    },
+    {
+      "title": "La librairie React",
+      "author": "LN",
+      "body": "React (aussi appelé React.js ou ReactJS) est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page (ou portion) HTML à chaque changement d'état.\n\nReact est une bibliothèque qui ne gère que l'interface de l'application, considéré comme la vue dans le modèle MVC. Elle peut ainsi être utilisée avec une autre bibliothèque ou un framework MVC comme AngularJS. La bibliothèque se démarque de ses concurrents par sa flexibilité et ses performances, en travaillant avec un DOM virtuel et en ne mettant à jour le rendu dans le navigateur qu'en cas de nécessité2.",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 00:24:50.792Z",
+      "id": 4
+    },
+    {
+      "title": "Angular",
+      "author": "LN",
+      "body": "Angular (communément appelé \"Angular 2+\" ou \"Angular v2 et plus\")2,3 est un framework côté client, open source, basé sur TypeScript, et co-dirigé par l'équipe du projet « Angular » à Google et par une communauté de particuliers et de sociétés. Angular est une réécriture complète d'AngularJS, cadriciel construit par la même équipe. Il permet la création d’applications Web et plus particulièrement de ce qu’on appelle des « Single Page Applications » : des applications web accessibles via une page web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. Le Framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités. Un type d’architecture qui a largement fait ses preuves et qui permet une forte maintenabilité et une amélioration du travail collaboratif.",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 00:25:29.344Z",
+      "id": 5
+    },
+    {
+      "title": "Tailwind CSS",
+      "author": "LN",
+      "body": "Tailwind CSS est essentiellement un framework CSS utilitaire pour créer rapidement des interfaces utilisateur personnalisées. Il s'agit d'un cadre CSS de bas niveau hautement personnalisable qui vous donne tous les éléments de base dont vous avez besoin pour créer des conceptions sur mesure sans aucun style opiniâtre ennuyeux que vous devez vous battre pour remplacer.",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 00:27:31.689Z",
+      "id": 6
+    }
+  ]
+}
