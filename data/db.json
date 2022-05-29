@@ -47,6 +47,30 @@
       "image": "https://source.unsplash.com/500x300/?coding",
       "date": "2022-05-29 00:27:31.689Z",
       "id": 6
+    },
+    {
+      "title": "Le dev frontend",
+      "author": "LN",
+      "body": "Le développement web frontal (aussi appelé front-end en anglais) correspond aux productions HTML, CSS et JavaScript d’une page internet ou d’une application qu’un utilisateur peut voir et avec lesquelles il peut interagir directement.\n\nLe principal défi du développement web frontal est de toujours s'adapter aux dernières évolutions ; les outils et les techniques de développement étant en évolution constante.\n\nLa conception des sites internet doit également être capable d’offrir une bonne ergonomie de lecture en facilitant la navigation et l’obtention d’information. Cet objectif est d’autant plus compliqué que les appareils ont des formats et tailles variés. Le développeur doit donc s’assurer que le site internet apparait correctement sur l’ensemble des navigateurs Web et des appareils disponibles.",
+      "image": "https://source.unsplash.com/500x300/?frontend",
+      "date": "2022-05-29 08:55:08.584Z",
+      "id": 7
+    },
+    {
+      "title": "Le dev backend",
+      "author": "LN",
+      "body": "Le Développeur Back-End est en charge de l'ensemble des fonctionnalités d'un site web. A la différence du Développeur Front-End, le Développeur Back-End ne s'occupe pas de l'aspect ergonomique du site mais de l'aspect technique et fonctionnel. Il travaille dans l'ombre.",
+      "image": "https://source.unsplash.com/500x300/?backend",
+      "date": "2022-05-29 08:58:29.124Z",
+      "id": 8
+    },
+    {
+      "title": "Next.js",
+      "author": "LN",
+      "body": "Next.js est un cadriciel (framework) gratuit et open source s'appuyant sur la librairie JavaScript React3 et sur la technologie Node.js.\n\nLe framework permet de créer des applications web universelles ou parfois appelées isomorphiques4, signifiant que le code source est partagé entre le client et le serveur, de même que le font ses concurrents (Gatsby, Nuxt.js, Blitz).\n\nNext.js prend en charge les techniques de rendu des pages web côté serveur (SSR : Server Side Rendering5,6), le rendu statique de pages web (SSG: Static Site Generation)5.\n",
+      "image": "https://source.unsplash.com/500x300/?coding",
+      "date": "2022-05-29 09:05:34.273Z",
+      "id": 9
     }
   ]
 }
