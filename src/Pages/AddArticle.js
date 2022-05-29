@@ -5,7 +5,7 @@ const AddArticle = () => {
     const [title, setTitle] = useState('');
     const [author, setAuthor] = useState('');
     const [body, setBody] = useState('');
-    const [image, setImage] = useState('https://picsum.photos/500/300');
+    const [image, setImage] = useState('https://source.unsplash.com/500x300/?coding');
 
     const [loading, setLoading] = useState(false)
 
