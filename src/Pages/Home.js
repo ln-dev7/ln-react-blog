@@ -4,7 +4,7 @@ import getData from "../Data/getData.js";
 
 const Home = () => {
 
-    const {data: blogs, loading, error} = getData('http://localhost:8000/blogs?_sort=id&_order=desc');
+    const {data: blogs, loading, error} = getData('https://my-json-server.typicode.com/ln-dev7/ln-react-blog-server/blogs?_sort=id&_order=desc');
 
     return (
         <div className="home">

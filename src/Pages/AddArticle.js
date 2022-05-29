@@ -18,7 +18,7 @@ const AddArticle = () => {
             title, author, body, image, date
         };
         setLoading(true)
-        fetch('http://localhost:8000/blogs', {
+        fetch('https://my-json-server.typicode.com/ln-dev7/ln-react-blog-server/blogs', {
             method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(blog)
         })
             .then(() => {
@@ -45,7 +45,7 @@ const AddArticle = () => {
             </div>
             <div className="article-input">
                 <label htmlFor="image">Lien de l' image</label>
-                <input type="text" id="image" placeholder="https://picsum.photos/500/300" value={image}
+                <input type="text" id="image" placeholder="https://source.unsplash.com/500x300/?coding" value={image}
                        onChange={(e) => setImage(e.target.value)} required/>
             </div>
             {!loading ? <button onClick={handelSubmit} type="submit">Ajouter l' article</button> :
